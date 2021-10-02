@@ -1,0 +1,7 @@
+first do the changes you want then
+open cmd
+change to D:\Git Making
+run cmd
+git add .
+git commit -m "Description of changes"
+git push -u origin master
