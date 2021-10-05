@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Student Bio-Data Collection Form</title>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid blue;
+  padding: 10px;
+  text-align:center;
+}
+</style>
+<script type="text/javascript">
+		function validate() {
+			var rollno = document.getElementById('box1').value;
+			var regex = /^(9[0-9][0-9]|1[0-2][0-9][0-9])$/;
+			if(! (regex.test(rollno)) ) {
+				alert('Input is not in correct format');
+				return false;
+			}
+			var name = document.getElementById('box2').value;
+			var regx = /^[a-zA-Z ]*$/;
+			if(! (regx.test(name))) {
+				alert('Name can contain only alphabets and space');
+				return false;
+			}
+			
+			return true;
+		}
+	</script>
+</head>
+<body>
+<h2 style="text-align:center;color:red">Collecting Student Bio-Data Form</h2>
+<div class="center">
+<form action="main1.html" onsubmit = "return(validate());">
+	<fieldset>
+		<legend>Student Detail:</legend>
+		<label for="box1">Roll Number*:</label>
+		<input type="number" id="box1" name="rollno" required ><br><br>
+		<label for="box2">Student Name*:</label>
+		<input type="text" id="box2" name="name" required><br><br>
+		<label for="box3">Standard*:</label>
+		<select id="box3" name="std" required>
+			<option value="IX">IX(Nineth)</option>
+			<option value="X">X(Tenth)</option>
+			<option value="XI">XI(Eleventh)</option>
+			<option value="XII">XII(Twelfth)</option>
+		</select>
+		<label for="box4">Section*:</label>
+		<select id="box4" name="sec" required>
+			<option value="A">Section A</option>
+			<option value="B">Section B</option>
+			<option value="C">Section C</option>
+			<option value="D">Section D</option>
+		</select><br><br>
+		<label for="box5">Date of Birth(DOB)*:</label>
+		<input type="date" id="box5" name="dob" required><br><br>
+		<label for="box6">Blood Group*:</label>
+		<input type="text" id="box6" name="BGroup" required><br><br>
+	</fieldset><br>
+	<fieldset>
+		<legend>Parents Detail:</legend>
+		<label for="box7">Father Name:</label>
+		<input type="text" id="box7" name="fname"><br><br>
+		<label for="box8">Father Occupation:</label>
+		<input type="text" id="box8" name="foccup"><br><br>
+		<label for="box9">Mother Name:</label>
+		<input type="text" id="box9" name="mname"><br><br>
+		<label for="box10">Mother Occupation:</label>
+		<input type="text" id="box10" name="moccup"><br><br>
+		<label for="box11">Guardian Name:</label>
+		<input type="text" id="box11" name="gname"><br><br>
+		<label for="box12">Guardian Occupation:</label>
+		<input type="text" id="box12" name="goccup"><br><br>
+	</fieldset><br>
+	<fieldset>
+		<legend>Contact Details:</legend>
+		<label for="box13">Father/Guardian Mobile No.*:</label>
+		<input type="tel" id="box13" name="fgno" pattern="[0-9]{10}" required ><br><br>
+		<label for="box14">Alternative Mobile No.*:</label>
+		<input type="tel" id="box14" name="amno" pattern="[0-9]{10}" required ><br><br>
+		<label for="box15">Email Address*:</label>
+		<input type="email" id="box15" name="email" required ><br><br>
+		<label for="box16">Address*:</label>
+		<textarea id="box16" name="address" style="width:40%;height:60px;" required ></textarea><br><br>
+		<label for="box17">Pincode*:</label>
+		<input type="tel" id="box17" name="pincode" pattern="[0-9]{6}" required ><br>
+	</fieldset>
+	<h4>Note: * Fields are Mandatory.</h4>
+	<input type="submit" value="Submit">
+</form> 
+
+</div>
+</body>
+</html>
