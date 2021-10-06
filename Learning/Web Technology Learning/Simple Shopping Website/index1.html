@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="shoping.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <div id="content">
+        <img src="images/Header.jpg" id="heading"/>
+        <p style="text-align: right;">
+        <button id="cart"style="text-align:right">Open Cart</button></p>
+        <div class="center">
+            <div class="row">
+                <h2>Shirt:</h2>
+                <div class="column" style="width:40%">
+                    <img src="images/Shirt.jpg" class="photo"/>
+                    <h3>Raymond Cotton Shirt</h3>
+                </div>
+                <div class="column">
+                    <h4>Men's Regular Slim Fit Casual Shirt<br>Price: Rs.1999 per shirt</h4>
+                    <label for="1colors"style="font-size:30 px">Avail. Colors : </label>
+                    <label for="1sizes"style="font-size:30 px">Avail. Sizes</label><br>
+                    <select id="1colors" required>
+                        <option>Blue</option>
+                        <option>Light Blue</option>
+                        <option>Light Yellow</option>
+                        <option>Black</option>
+                    </select>
+                    <select id="1sizes" required>
+                        <option value="38">38 SMALL</option>
+                        <option value="40">40 MEDIUM</option>
+                        <option value="42">42 LARGE</option>
+                        <option value="44">44 XLARGE</option>
+                    </select><br><br>
+                    <label for="1Quan">Quantity:</label>
+                    <input type="number" id="1Quan" min="1" max = "100" default="0"/><br><br>
+                    <button id="shirt">Add to Cart</button>
+                    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+		            <script src="shoping.js"></script>
+                </div>
+            </div>
+            <div class="row">
+                <h2>T Shirt:</h2>
+                <div class="column" style="width:40%">
+                    <img src="images/t shirt.jpg" class="photo"/>
+                    <h3>Raymond Cotton T Shirt</h3>
+                </div>
+                <div class="column">
+                    <h4>Men's Regular Slim Fit Casual T Shirt Full Hand No Collar<br>Price: Rs.999 per shirt</h4>
+                    <label for="2colors"style="font-size:30 px">Avail. Colors : </label>
+                    <label for="2sizes"style="font-size:30 px">Avail. Sizes</label><br>
+                    <select id="2colors" required>
+                        <option>Blue</option>
+                        <option>Light Blue</option>
+                        <option>Light Yellow</option>
+                        <option>Black</option>
+                    </select>
+                    <select id="2sizes" required>
+                        <option value="38">38 SMALL</option>
+                        <option value="40">40 MEDIUM</option>
+                        <option value="42">42 LARGE</option>
+                        <option value="44">44 XLARGE</option>
+                    </select><br><br>
+                    <label for="2Quan">Quantity:</label>
+                    <input type="number" id="2Quan" min="1" max = "100" default="0"/><br><br>
+                    <button id="tshirt">Add to Cart</button>
+                    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+		            <script src="shoping.js"></script>
+                </div>
+            </div>
+            <div class="row">
+                <h2>Pant:</h2>
+                <div class="column" style="width:40%">
+                    <img src="images/pant.jfif" class="photo"/>
+                    <h3>Raymond Cotton Pant</h3>
+                </div>
+                <div class="column">
+                    <h4>Men's Regular Slim Fit Casual Pant<br>Price: Rs.1499 per pant</h4>
+                    <label for="3colors"style="font-size:30 px">Avail. Colors : </label>
+                    <label for="3sizes"style="font-size:30 px">Avail. Sizes</label><br>
+                    <select id="3colors" required>
+                        <option>White</option>
+                        <option>Brown</option>
+                        <option>Black</option>
+                    </select>
+                    <select id="3sizes" required>
+                        <option value="38">38 SMALL</option>
+                        <option value="40">40 MEDIUM</option>
+                        <option value="42">42 LARGE</option>
+                        <option value="44">44 XLARGE</option>
+                    </select><br><br>
+                    <label for="3Quan">Quantity:</label>
+                    <input type="number" id="3Quan" min="1" max = "100" default="0"/><br><br>
+                    <button id="pant">Add to Cart</button>
+                    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+		            <script src="shoping.js"></script>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
