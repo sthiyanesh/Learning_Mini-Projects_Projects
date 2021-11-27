@@ -1,0 +1,1 @@
+This is a Java Mini Project that uses Socket Programming and Swing GUI to make it work
