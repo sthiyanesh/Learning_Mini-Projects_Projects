@@ -1,0 +1,22 @@
+You:hello 2323
+You:how are U??
+2323:hi 2423
+2323:I am fine how about U
+You:good morning da
+You:good night
+2323:good afternoon da
+2323:good evening mapla
+You:super working
+2323:jolly
+You:how the day going
+You:hello
+You:hello my dear friend
+You:how are you??
+2323:hi da
+2323:i am fine
+You:hello da
+2323:how is the project going da???
+2323:how are u machan???
+You:fine and going
+2323:hmm
+2323:hello
