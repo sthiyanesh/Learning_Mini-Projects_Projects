@@ -8,7 +8,7 @@ class ArpClient{
       Socket clsct=new Socket("localhost",2000);
       DataInputStream din=new DataInputStream(clsct.getInputStream());
       DataOutputStream dout=new DataOutputStream(clsct.getOutputStream());
-      System.out.println("Enter the Logical address(IP):");
+      System.out.println("Enter the Logical address (IP Address):");
       String str1=sc.nextLine();
       dout.writeUTF(str1);
       String str=din.readUTF();
