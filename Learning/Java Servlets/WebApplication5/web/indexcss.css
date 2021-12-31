@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Dec, 2021, 6:45:05 AM
+    Author     : THIYANESH S
+*/
+.header{
+    background-color: #000957;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #F8F9FA;
+}
+
+.topnav {
+    background: #B8E4F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #86A8EC;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #577BC1;
+  color: white;
+}
+
+.content1{
+    position: relative;
+    width:70%;
+    margin-top: 5%;
+    margin-left: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+}
+
+#text1{
+    position:relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+#addbutton{
+    position: relative;
+    left:70%;
+    margin-bottom: 3%;
+    background: #000957;
+    border-radius: 9px;
+    color:white;
+    font-size:25px;
+}
+
+.hello{
+    position: relative;
+    margin:1%;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.checker{
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding:2%;
+    background-color: #000957;
+    border-radius: 15px 0px 0px 15px;
+    width: 10%;
+    left: 86%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
